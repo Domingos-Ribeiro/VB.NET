@@ -70,15 +70,15 @@
         End Select
         Console.WriteLine("*****************************************************")
         Console.WriteLine("Arrays 1 to 3")
-        Dim V(3) As Integer
+        Dim V(5) As Integer
         x = Console.ReadLine()
-        V(1) = x
+        V(4) = x
 
-        For i = 1 To 3
+        For i = 1 To 5
             Console.WriteLine(V(i))
         Next
-        Dim encontrado As Boolean = False
-
+        'Dim encontradoF As Boolean = False
+        Dim encontradoV As Boolean = True
     End Sub
 
 End Module
